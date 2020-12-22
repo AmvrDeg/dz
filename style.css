@@ -1,0 +1,49 @@
+#siteTop {
+    width: 90%;
+    height: 9%;
+    
+    background-color:rgb(91, 91, 175);
+    margin-left: 4%;
+    border-style:solid;
+    border-color: rgb(7, 7, 87);
+    font-size:20px;
+    color: cornsilk;   
+}
+
+
+#tableBoxFirst{
+    width: 0px;
+    height: 0px;
+    border-top: 10px inset rgb(212, 212, 212);
+    border-left: 10px inset rgb(156, 156, 156);
+    border-right: 10px inset rgb(206, 206, 206);
+    border-bottom: 10px inset rgb(211, 211, 211);
+    margin-left: 10px;
+}
+#tableBox{
+    
+    width: 0px;
+    height: 0px;
+    border-top: 10px inset rgb(85, 85, 255);
+    border-left: 10px inset rgb(50, 50, 216);
+    border-right: 10px inset rgb(50, 50, 216);
+    border-bottom: 10px inset rgb(50, 50, 216);
+    margin-left: 10px;
+}
+
+
+table{ width: 90%; border: 2px solid lightgray; margin-left: 4%; ;border-collapse: collapse; }
+td{border: 2px solid lightgray; border-collapse: collapse;}
+td:first-child{width: 5%;}
+td:nth-child(2){width: 50%;}
+.bluetext{
+    
+    color: rgb(65, 65, 255);
+}
+tr:first-of-type{
+    background-color: lightgray;
+}
+.loh{
+    margin-top: -10px;
+}
+
